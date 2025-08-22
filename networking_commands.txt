@@ -1,0 +1,6 @@
+ssh-keygen -t ed25519 -C "git" -f ~/.ssh/git
+nano ~/.ssh/config
+cat ~/.ssh/git.pub
+git clone git@github.com:Rostyslav2001/first_rep.git
+ssh-keygen -t ed25519 -C "aws" -f ~/.ssh/aws
+cat ~/.ssh/aws.pub
